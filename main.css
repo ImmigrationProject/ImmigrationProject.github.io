@@ -3,7 +3,7 @@
 body{
    text-align: center;
    background:  #9099A2;
-    
+   
    margin: 100px;
    background-image: url("angelisland.jpg");
    no-repeat center center fixed; 
@@ -16,7 +16,7 @@ body{
 h1{
 
   color: black;
-  font-size: 200%
+  font-size: 50px;
   font family: Verdana, Geneva, sans-serif;
 }
 
