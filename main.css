@@ -12,7 +12,7 @@ body{
      -moz-background-size: cover;
      -o-background-size: cover;    
 }
-
+/* ************************************************************** */
 h1{
 
   color: black;
@@ -51,6 +51,8 @@ nav ul{
 }
 
 
+
+
 ul#horizontal-list{
      padding: 10px;
 }
@@ -60,6 +62,222 @@ ul#horizontal-list li{
     list-style-type: none;
     padding: 5px;
 }
+/* ************************************************************** */
+#one{
+ float:left;
+}
+
+.lineUp{
+ text-align: center;
+    background-color: lightsteelblue;
+    width: 300px;
+    border: 25px ;
+    padding: 25px;
+    margin: 25px;
+    image-orientation: center;
+    
+    }
+
+.anitextOne{
+    align-self: center;
+    
+animation: fadeAndScale 10s cubic-bezier(0,1.07,0.72,1.42);
+    transform-origin: right;
+
+}
+
+@keyframes fadeAndScale{
+    from{
+    opacity: 0;
+    transform scale3d(.75, .75, 1);
+    }
+    to{
+    opacity: 1;
+    transform: scale3d(1,1,1);
+    }
+
+}
+
+
+.fadeImage0ne{
+animation: fadeIn 10s cubic-bezier(0,1.07,0.72,1.42);
+    transform-origin: right;
+
+}
+
+@keyframes fadeIn{
+    from{
+    opacity: 0;
+    transform scale3d(.75, .75, 1);
+    }
+    to{
+    opacity: 1;
+    transform: scale3d(1,1,1);
+    }
+
+}
+
+/* ************************************** */
+#two{
+ float:left;
+    width: 450px;
+
+    
+}
+
+.lineUp{
+   text-align: center;
+    background-color: lightsteelblue;
+    width: 200px;
+    border: 25px ;
+    padding: 25px;
+    margin: 25px;
+    image-orientation: center;
+}
+
+.anitext2wo{
+    align-self: center;
+animation: fadeAndScale 10s cubic-bezier(0,1.07,0.72,1.42);
+    transform-origin: right;
+
+}
+
+@keyframes fadeAndScale{
+    from{
+    opacity: 0;
+    transform scale3d(.75, .75, 1);
+    }
+    to{
+    opacity: 1;
+    transform: scale3d(1,1,1);
+    }
+
+}
+
+
+.fadeImage2wo{
+animation: fadeIn 10s cubic-bezier(0,1.07,0.72,1.42);
+    transform-origin: right;
+
+}
+
+@keyframes fadeIn{
+    from{
+    opacity: 0;
+    transform scale3d(.75, .75, 1);
+    }
+    to{
+    opacity: 1;
+    transform: scale3d(1,1,1);
+    }
+
+}
+/* ************************************** */
+#three{
+float:right;
+}
+
+.lineUp{
+   text-align: center;
+    background-color: lightsteelblue;
+    width: 200px;
+    border: 25px ;
+    padding: 25px;
+    margin: 25px;
+    image-orientation: center;
+}
+
+.anitext3hree{
+    align-self: center;
+animation: fadeAndScale 10s cubic-bezier(0,1.07,0.72,1.42);
+    transform-origin: right;
+
+}
+
+@keyframes fadeAndScale{
+    from{
+    opacity: 0;
+    transform scale3d(.75, .75, 1);
+    }
+    to{
+    opacity: 1;
+    transform: scale3d(1,1,1);
+    }
+
+}
+
+
+.fadeImage3hree{
+animation: fadeIn 10s cubic-bezier(0,1.07,0.72,1.42);
+    transform-origin: right;
+
+}
+
+@keyframes fadeIn{
+    from{
+    opacity: 0;
+    transform scale3d(.75, .75, 1);
+    }
+    to{
+    opacity: 1;
+    transform: scale3d(1,1,1);
+    }
+
+}
+/* ************************************** */
+#four{
+float:right;
+
+}
+
+.lineUp{
+   text-align: center;
+    background-color: lightsteelblue;
+    width: 300px;
+    border: 25px ;
+    padding: 25px;
+    margin: 25px;
+    image-orientation: center;
+}
+
+.anitext4our{
+    align-self: center;
+animation: fadeAndScale 10s cubic-bezier(0,1.07,0.72,1.42);
+    transform-origin: right;
+
+}
+
+@keyframes fadeAndScale{
+    from{
+    opacity: 0;
+    transform scale3d(.75, .75, 1);
+    }
+    to{
+    opacity: 1;
+    transform: scale3d(1,1,1);
+    }
+
+}
+
+
+.fadeImage4our{
+animation: fadeIn 10s cubic-bezier(0,1.07,0.72,1.42);
+    transform-origin: right;
+
+}
+
+@keyframes fadeIn{
+    from{
+    opacity: 0;
+    transform scale3d(.75, .75, 1);
+    }
+    to{
+    opacity: 1;
+    transform: scale3d(1,1,1);
+    }
+
+}
+/* ******************************************************************* */
 
 nav ul li a{
   color: aliceblue;
@@ -67,13 +285,9 @@ nav ul li a{
 
 /*-- this is header */
 p{
-  color: white;
+  color: black;
   padding: 10px;
   margin: 0;
     }
 
 
-
-footer{
-  color:aliceblue;
-}
