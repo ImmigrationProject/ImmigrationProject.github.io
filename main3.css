@@ -29,3 +29,32 @@ background: white;
 p2{
    color: white;
 }
+
+#menu-outer{
+    height: none;
+}
+
+
+.elements{
+    display:inline-block;
+
+}
+
+.btn .button{
+    background-color: none;
+    cursor: pointer;
+     border: 
+}
+
+.btn .button:hover{
+    background-color: aliceblue;
+}
+
+.button:active{
+    background-color:aliceblue;
+      box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+
