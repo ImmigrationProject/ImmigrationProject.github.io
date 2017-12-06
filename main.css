@@ -1,4 +1,3 @@
-
 /*-- this is background */
 body{
    text-align: center;
@@ -67,6 +66,18 @@ ul#horizontal-list li{
  float:left;
 }
 
+#two{
+ float:left;
+width: 400px;    
+}
+
+#three{
+float:right;
+}
+
+#four{
+float:right;
+}
 .lineUp{
  text-align: center;
     background-color: lightsteelblue;
@@ -118,22 +129,8 @@ animation: fadeIn 10s cubic-bezier(0,1.07,0.72,1.42);
 }
 
 /* ************************************** */
-#two{
- float:left;
-    width: 450px;
 
-    
-}
 
-.lineUp{
-   text-align: center;
-    background-color: lightsteelblue;
-    width: 200px;
-    border: 25px ;
-    padding: 25px;
-    margin: 25px;
-    image-orientation: center;
-}
 
 .anitext2wo{
     align-self: center;
@@ -173,19 +170,7 @@ animation: fadeIn 10s cubic-bezier(0,1.07,0.72,1.42);
 
 }
 /* ************************************** */
-#three{
-float:right;
-}
 
-.lineUp{
-   text-align: center;
-    background-color: lightsteelblue;
-    width: 200px;
-    border: 25px ;
-    padding: 25px;
-    margin: 25px;
-    image-orientation: center;
-}
 
 .anitext3hree{
     align-self: center;
@@ -225,21 +210,6 @@ animation: fadeIn 10s cubic-bezier(0,1.07,0.72,1.42);
 
 }
 /* ************************************** */
-#four{
-float:right;
-
-}
-
-.lineUp{
-   text-align: center;
-    background-color: lightsteelblue;
-    width: 300px;
-    border: 25px ;
-    padding: 25px;
-    margin: 25px;
-    image-orientation: center;
-}
-
 .anitext4our{
     align-self: center;
 animation: fadeAndScale 10s cubic-bezier(0,1.07,0.72,1.42);
@@ -289,5 +259,3 @@ p{
   padding: 10px;
   margin: 0;
     }
-
-
