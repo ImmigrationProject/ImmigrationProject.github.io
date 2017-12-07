@@ -19,27 +19,34 @@ h1{
   font family: Verdana, Geneva, sans-serif;
 }
 
-#mainCenter{
+p{
+
 background: white;
+animation: fadeAndScale 10s cubic-bezier(0,1.07,0.72,1.42);
+    transform-origin: right;
+
+
 }
 
-.text{
-    width: 1500px;
-    border: 25px ;
-    padding: 25px;
-    margin: 25px;
-    text-align: center;
-}
+p2{
+   color: white;
+    animation: fadeAndScale 10s cubic-bezier(0,1.07,0.72,1.42);
+    transform-origin: right;
 
-.footer{
-    color: white;
 }
 
 #menu-outer{
     height: none;
 }
 
-
+.lineUp{
+ text-align: center;
+    background-color: lightsteelblue;
+    width: 450px;
+    border: 25px ;
+    padding: 3%;
+    margin: 25px;
+}
 .elements{
     display:inline-block;
 
@@ -63,3 +70,16 @@ background: white;
 
 
 
+
+
+@keyframes fadeAndScale{
+    from{
+    opacity: 0;
+    transform scale3d(.75, .75, 1);
+    }
+    to{
+    opacity: 1;
+    transform: scale3d(1,1,1);
+    }
+
+}
