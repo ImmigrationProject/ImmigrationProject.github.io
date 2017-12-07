@@ -61,29 +61,34 @@ ul#horizontal-list li{
     list-style-type: none;
     padding: 5px;
 }
+
+
+
 /* ************************************************************** */
 #one{
  float:left;
+ 
 }
 
 #two{
- float:left;
-width: 400px;    
+ float:right;   
 }
 
 #three{
-float:right;
+float:left;
+clear: left;
+
 }
 
 #four{
-float:right;
+float: right;
 }
 .lineUp{
  text-align: center;
     background-color: lightsteelblue;
-    width: 300px;
+    width: 450px;
     border: 25px ;
-    padding: 25px;
+    padding: 3%;
     margin: 25px;
     image-orientation: center;
     
