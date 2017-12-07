@@ -19,17 +19,23 @@ h1{
   font family: Verdana, Geneva, sans-serif;
 }
 
-p{
-
-background: white;
-animation: fadeAndScale 10s cubic-bezier(0,1.07,0.72,1.42);
-    transform-origin: right;
-width: 500px;
-    padding: 0px;
-    padding-bottom: 5px;
-    margin: auto;
+ul.a{
+        background: lightblue;
+    padding: 20px;
+         list-style-type: square;
+       animation: fadeAndScale 10s cubic-bezier(0,1.07,0.72,1.42);
 
 }
+
+li{
+    background: #cce5ff;
+    padding: 10px;
+    
+}
+
+
+
+
 
 p2{
    color: white;
