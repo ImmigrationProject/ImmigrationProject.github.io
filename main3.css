@@ -32,7 +32,7 @@ width: 500px;
 }
 
 p2{
-   color: white;
+   color: black;
     animation: fadeAndScale 10s cubic-bezier(0,1.07,0.72,1.42);
     transform-origin: right;
     width: 500px;
